@@ -42,7 +42,7 @@ public class ContextExporterWindow : EditorWindow
         ShowWindow(false, mode, "Context Exporter");
     }
 
-    private const string ASSET_CONTEXT_MENU_PATH = "Assets/Export Asset(s) to Context";
+    private const string ASSET_CONTEXT_MENU_PATH = "Assets/Export Selection to Context";
 
     [MenuItem(ASSET_CONTEXT_MENU_PATH, false, 1000)] 
     private static void ExportAssetsToContext() 
